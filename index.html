@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Search App - Application State demo</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"
+      integrity="sha256-1fEPhSsRKlFKGfK3eO710tEweHh1fwokU5wFGDHO+vg="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/lux/bootstrap.min.css"
+    />
+    <style>
+      .movies-area {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+      }
+      p {
+        font-size: 13px;
+      }
+
+      .small {
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Movie Search</a>
+      </nav>
+    </header>
+    <main class="container mt-2">
+      <form action="" method="post">
+        <fieldset class="form-group">
+          <label for="searchTerm">Search</label>
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id="searchTerm"
+            placeholder="Enter a movie title"
+          />
+        </fieldset>
+        <button type="submit" class="btn btn-primary">GO</button>
+      </form>
+      <section id="app"></section>
+    </main>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

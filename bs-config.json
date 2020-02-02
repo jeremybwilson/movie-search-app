@@ -1,0 +1,9 @@
+
+{
+  "port": 3002,
+  "server": {
+    "baseDir": "."
+  },
+  "browser": ["google-chrome", "firefox"],
+  "https" : true
+}
